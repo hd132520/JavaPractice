@@ -40,6 +40,12 @@ public class Condition {
 		else if (car == "그 외") {
 			mon = 600+((dis-1)/10)*pmon;
 		}
+		
+		if(dis ==0) {
+			System.out.println("달리지 않았습니다.");
+			
+			return ;
+		}
 		System.out.println("거리 : " + dis + "km");
 		System.out.println("차종 :" + car);
 		System.out.println("통행료 : " + mon + "원");
