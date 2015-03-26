@@ -4,9 +4,18 @@ public class Condition {
 
 	public static void main(String[] args) {
 		
-		int dis=123, mon=0;
+		int dis=10, mon=0;
 		
+		int pmon;
 		String car = "고속버스";
+		
+		if(car == "고속버스") {
+			pmon = 300;
+			
+		}
+		else {
+			pmon= 200;
+		}
 		
 		
 		
@@ -15,14 +24,14 @@ public class Condition {
 		System.out.println("<< 고속도로 통행료 계산 >>");
 		
 		if(car == "고속버스") {
-			mon = 850+((dis-1)/10)*300;
+			mon = 850+((dis-1)/10)*pmon;
 			
 		}
 		else if(car == "경차") {
-			mon = 300+((dis-1)/10)*200;
+			mon = 300+((dis-1)/10)*pmon;
 		}
 		else if (car == "그 외") {
-			mon = 600+((dis-1)/10)*200;
+			mon = 600+((dis-1)/10)*pmon;
 		}
 		System.out.println("거리 : " + dis + "km");
 		System.out.println("차종 :" + car);
