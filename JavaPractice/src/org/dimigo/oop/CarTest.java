@@ -73,9 +73,7 @@ public class CarTest {
 		System.out.println("가격 : " + String.format("%,d", ss.getPrice()));
 		System.out.println("");
 		
-		
-
-		
+		//Commit!
 		
 		
 
