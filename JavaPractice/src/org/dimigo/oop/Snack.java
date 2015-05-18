@@ -96,6 +96,7 @@ public class Snack {
 	
 	
 	
+	
 	public void calcPrice() {
 		int sum =+ price;
 		
