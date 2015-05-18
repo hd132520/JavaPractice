@@ -94,6 +94,8 @@ public class Snack {
 		System.out.println("갯수 : " + this.number +"개");
 	}
 	
+	
+	
 	public void calcPrice() {
 		int sum =+ price;
 		

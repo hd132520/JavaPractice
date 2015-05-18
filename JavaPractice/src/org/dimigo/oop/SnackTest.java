@@ -32,8 +32,8 @@ public class SnackTest {
 		};
 		
 		
-		
-		
+
+
 		
 		for(Snack val: snackArr) {
 			val.printSnack();
@@ -41,6 +41,7 @@ public class SnackTest {
 		}System.out.println();
 		
 	
+		
 	
 		
 
