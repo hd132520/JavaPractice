@@ -97,10 +97,8 @@ public class Snack {
 	
 	
 	
-	public void calcPrice() {
-		int sum =+ price;
-		
-		System.out.println(sum);
+	public int calcPrice() {
+		return this.price *this.number;
 		
 		
 	}

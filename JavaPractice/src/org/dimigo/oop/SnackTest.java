@@ -32,7 +32,7 @@ public class SnackTest {
 				
 		};
 		
-		
+		int Price=0;
 
 
 		
@@ -40,6 +40,14 @@ public class SnackTest {
 			val.printSnack();
 			System.out.println();
 		}System.out.println();
+		
+		for(Snack val: snackArr) {
+			Price += val.calcPrice();
+		}
+		
+		System.out.println("총 합계 : " +Price+"원");
+		
+		
 		
 	
 		
