@@ -26,13 +26,13 @@ public class Car2 {
 	private int maxSpeed;
 	private int price;
 	
-	public Car2 (String newCompany, String newModel, String newColor,int newmaxSpeed,int newprice) {
+	public Car2 (String company, String model, String color,int maxSpeed,int price) {
 		
-		company = newCompany;
-		model = newModel;
-		color= newColor;
-		maxSpeed= newmaxSpeed;
-		price = newprice;
+		company = this.company;
+		model = this.model;
+		color= this.color;
+		maxSpeed= this.maxSpeed;
+		price = this.price;
 		
 		
 		
